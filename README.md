@@ -18,10 +18,17 @@ RevAutos was facing several data management issues that hindered their ability t
 - Ineffective customer satisfaction rating system
 
 ## Methodology  
-Data Cleaning Process
+### 1. Data Cleaning Process
+- Identification of Unique Keys: Used SalesID as the primary unique identifier to detect and eliminate duplicate records
+- Data Standardization: Corrected inconsistent formatting in fields such as sale amounts, car brands, and payment methods
+- Email and Contact Information Validation: Ensured customer contact details were properly formatted and consistent
+- Removal of Duplicates: Eliminated duplicate entries based on SalesID to maintain data integrity
+- Data Structure Reorganization: Restructured the dataset with consistent column names and data types
 
-Identification of Unique Keys: Used SalesID as the primary unique identifier to detect and eliminate duplicate records
-Data Standardization: Corrected inconsistent formatting in fields such as sale amounts, car brands, and payment methods
-Email and Contact Information Validation: Ensured customer contact details were properly formatted and consistent
-Removal of Duplicates: Eliminated duplicate entries based on SalesID to maintain data integrity
-Data Structure Reorganization: Restructured the dataset with consistent column names and data types
+Raw Dataset                                         |                              Cleaned Dataset
+:--------------------------------------------------:|:--------------------------------------------:
+![](Raw Dataset.png)                                 ![](Cleaned_Dataset.png)
+
+
+
+### 2. Analysis Approach
