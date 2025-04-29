@@ -37,28 +37,47 @@ After cleaning the data, the following analyses were performed:
 
 1. Financial Performance Analysis
 
-  - Tracked total cost of goods sold (COGS) over time
-  - Analyzed total profit and monthly fluctuations
-  - Examined order volumes and trends
+    - Tracked total cost of goods sold (COGS) over time
+    - Analyzed total profit and monthly fluctuations
+    - Examined order volumes and trends
 
 2. Customer Insights
 
-  - Evaluated overall customer satisfaction ratings
-  - Correlated satisfaction ratings with business performance
+    - Evaluated overall customer satisfaction ratings
+    - Correlated satisfaction ratings with business performance
 
 3. Sales Analysis
 
-  - Analyzed sales fluctuations throughout the year
-  - Compared sales volumes across different payment methods
-  - Evaluated performance of different car brands
-  - Examined geographic distribution of sales by state
+    - Analyzed sales fluctuations throughout the year
+    - Compared sales volumes across different payment methods
+    - Evaluated performance of different car brands
+    - Examined geographic distribution of sales by state
 
 4. Employee Performance Analysis
 
-  - Identified top-performing salespeople
-  - Compared revenue generation across the sales team
+    - Identified top-performing salespeople
+    - Compared revenue generation across the sales team
 
 ![](Snippet_of_the_Analysis.png)
+
+## Dashboard Development
+A comprehensive dashboard was created in Excel to provide at-a-glance insights for RevAutos management. The dashboard includes:
+
+### 1. Key Performance Indicators
+      - Total COGS ($100,110,460)
+      - Total Profit ($18,144,540)
+      - Total Orders (3500)
+      - Customer Satisfaction Rating (8.53/10)
+
+
+### 2. Performance Visualizations
+      - Revenue by Salesperson
+      - Sales by Payment Method
+      - Car Brand: Sales vs COGS comparison
+      - Geographic Sales Distribution (by State)
+      - Monthly Sales Performance trends
+
+![](Rev_Autos_Dashboard.png)
 
 ## Key Findings
 Based on the analysis performed, several insights were uncovered:
@@ -67,9 +86,21 @@ Based on the analysis performed, several insights were uncovered:
 - Customer Satisfaction: The average customer satisfaction rating is 8.53/10
 - Sales Performance:
     - Monthly sales show significant fluctuations with peaks appearing in August
-    - Credit Card and Debit Card appear to be the highest revenue-generating payment methods
+    - Debit Card and Financing appear to be the highest revenue-generating payment methods
     - New York, Florida, and Texas are major contributors to total sales
     - Sarah Connor is the top-performing salesperson with approximately $25.43M in revenue
+      
+## Tools Used
 
+  - Microsoft Excel: Used for entire data cleaning, analysis, and dashboard creation
+  - Excel Functions: Utilized PivotTables, VLOOKUP, COUNTIF, and other advanced functions for data processing
 
+## Future Recommendations
+Based on the analysis, the following recommendations are proposed for RevAutos:
+
+1. Implement a Standardized Data Entry System: To prevent future inconsistencies and duplications
+2. Focus Marketing Efforts on High-performing States: Especially New York, Florida, and Texas
+3. Optimize Payment Method Offerings: Particularly promoting Financing Card and Debit Card options
+4. Learn from Top-performing Salespeople: Implement training programs based on successful sales techniques
+5. Address Seasonal Sales Fluctuations: Plan inventory and promotions to address monthly trends
       
